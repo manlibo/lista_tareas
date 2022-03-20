@@ -47,7 +47,15 @@
 
         public function eliminarTarea()
         {
-            
+                /*$link = Conexion::conectar();
+                $sql = "DELETE *
+                                FROM todo";
+                $stmt = $link->prepare($sql);
+                $stmt->execute();
+
+                $resultado = $stmt->fetchAll();
+
+                return $resultado;*/
         }
 
 

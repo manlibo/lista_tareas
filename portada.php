@@ -11,7 +11,7 @@
   <title>TO-DO Man</title>
   <link rel="stylesheet" href="normalize.css">
   <script src="modernizr.js"></script>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body> 
     <nav>
@@ -28,6 +28,7 @@
                     <th>Id</th>
                     <th>Title</th>
                     <th>Description</th>
+                    <th>Delete</th>
                 </thead>
                 <tbody>
                     <?php
@@ -37,6 +38,7 @@
                         <td> <?=$tarea['id']?> </td>
                         <td> <?=$tarea['title']?> </td>
                         <td> <?=$tarea['description']?> </td>
+                        <td><a href="eliminar.php">Delete</a></td>
                     </tr>
                         <?php } ?>
                 </tbody>

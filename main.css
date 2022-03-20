@@ -1,0 +1,23 @@
+body{
+    font-family: "Helvetica Neue", Raleway, sans-serif;
+    font-weight: 50;
+    color: #444;
+    font-size: 1em;
+    width: 860px;
+    margin: auto;
+  }
+  table{
+    border-collapse: collapse;
+  }
+  th {
+    border-collapse: collapse;
+    border: #444 2px solid;
+    margin: 10px;
+    padding: 10px;
+  }
+  td {
+    border-collapse: collapse;
+    border: #444 2px solid;
+    margin: 10px;
+    padding: 10px;
+  }
